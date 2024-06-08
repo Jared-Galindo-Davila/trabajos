@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/img.fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+section{
+    padding-top: 25px;
+    
+}
+.titulo{
+    font-size: 80px;
+    font-family: 'Merienda', cursive;
+   font-style: oblique;
+   font-weight: 900;
+   text-align: center;
+}
+.piepagina{
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.galeria{
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
+.subti {
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* INICIO MENU */
+header{
+    background: linear-gradient(to bottom, #485a61,hsl(208, 12%, 56%));
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.menu{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-menu{
+    display: none;
+}
+.enlaces{
+    text-align: right;
+}
+
+.enlaces a{
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-textos);
+    padding: 1.6em;
+    font-size: 1em;
+}
+
+.reser{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 500;
+    display: flex;
+    max-width: 1000px;
+}

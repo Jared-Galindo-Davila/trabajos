@@ -1,0 +1,127 @@
+:root {
+    --color-primario: #EC111A;
+    --color-secundario: #F9D706;
+    --color-sombras: #282D31;
+    --color-titulos: #282D31;
+    --color-fondo: #7dc8cdd8;
+    ;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500&display=swap');
+
+body {
+    background-image: url(../img/img.fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding-top: 25px;
+
+}
+
+.titulo {
+    font-size: 80px;
+    font-family: 'Merienda', cursive;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: center;
+    
+
+}
+
+/* INICIO MENU */
+header {
+    background: linear-gradient(to bottom, #485a61, hsl(208, 12%, 56%));
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.menu {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-menu {
+    display: none;
+}
+
+.enlaces {
+    text-align: right;
+}
+
+.enlaces a {
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-textos);
+    padding: 1.6em;
+    font-size: 1em;
+}
+
+.subti {
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Menu {
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.entra {
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.plato1 {
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.precio {
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.boton {
+    /*Para editar los botones*/
+    /*hover*/
+    background-color: var(--color-primario);
+    padding: 1em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: .6em;
+    margin: 0.2em;
+
+}
+
+.boton:hover {
+    background-color: var(--color-secundario);
+     color: #000;
+    transition: all .4s ease-in-out;
+}
